@@ -1,0 +1,111 @@
+.seminars
+  .container
+    flex-direction: column
+    align-items: flex-end
+  &-title
+    margin-top: 64px
+    align-self: flex-start
+  &-content
+    position: relative
+    display: flex
+    margin-right: 48px
+    margin-top: 37px
+    margin-bottom: 44px
+    &:nth-of-type(3)
+      & > a
+        &::before
+          bottom: -35px
+      .seminars-content__line
+        bottom: -28px
+        width: 114%
+        left: -181px
+        &::before
+          height: 178px
+          left: -88px
+          transform: rotate(180deg)
+    &:last-of-type
+      margin-bottom: 0
+      & > a
+        &::before
+          bottom: -38px
+      .seminars-content__year
+        left: auto
+        right: -42px
+      .seminars-content__line
+        bottom: -31px
+        left: -185px
+        width: 117%
+        &::before
+          right: -4px
+          bottom: -10px
+          width: 11px
+          height: 18px
+          display: inline-block
+          content: ''
+          -webkit-mask: url(../img/icons/seminars/arrow.svg) no-repeat 50% 50%
+          mask: url(../img/icons/seminars/arrow.svg) no-repeat 50% 50%
+          -webkit-mask-size: cover
+          mask-size: cover
+          background: #9DC5DE
+    &__item
+      text-decoration: none
+      color: #151C22
+      max-width: 270px
+      width: 100%
+      margin-left: 72px
+      position: relative
+      &::before
+        content: ''
+        z-index: 9
+        position: absolute
+        bottom: -37px
+        left: -3px
+        border: 4px solid #ffffff
+        display: block
+        width: 8px
+        height: 8px
+        background: #9DC5DE
+        border-radius: 100%
+      p
+        margin-bottom: 4px
+        font-size: 15px
+        line-height: 21px
+        min-height: 63px
+        // overflow: hidden
+      span
+        font-family: PFCentroSansPro
+        font-size: 12px
+        line-height: 14px
+        color: #293640
+        opacity: 0.6
+    &__year
+      position: absolute
+      left: -271px
+      bottom: -43px
+      font-weight: 700
+    &__line
+      display: block
+      position: absolute
+      bottom: -30px
+      left: -218px
+      height: 1px
+      width: 118%
+      background: #9DC5DE
+      &::before
+        content: ''
+        display: block
+        position: absolute
+        right: -80px
+        width: 87.5px
+        height: 173px
+        border: 1px solid #9DC5DE
+        border-left: 0
+        border-radius: 0 100% 100% 0 / 0 50% 50% 0
+  &-btnAll
+    margin: 0 auto
+    margin-top: 75px
+  &-line
+    
+
+@import media
+  

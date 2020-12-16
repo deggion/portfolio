@@ -1,0 +1,54 @@
+.freshPosts
+  width: 100%
+  .container
+    flex-direction: column
+  &-title
+    margin-top: 73px
+  &-content
+    display: flex
+    margin-top: 37px
+    margin-bottom: 39px
+    flex-wrap: wrap
+    &__item
+      display: flex
+      flex-direction: column
+      width: 318px
+      margin-right: 24px
+      &:last-of-type
+        margin-right: 0
+      span
+        margin-bottom: 11px
+        font-family: PFCentroSansPro
+        font-size: 12px
+        line-height: 14px
+        color: #293640
+        mix-blend-mode: normal
+        opacity: 0.6
+      b
+        margin-bottom: 13px
+        line-height: 24px
+        letter-spacing: -0.2px
+      p
+        margin-bottom: 12px
+        font-family: PFCentroSansPro
+        font-size: 14px
+        line-height: 20px
+        opacity: 0.8
+      a
+        text-decoration: none
+        border: 1px solid rgba(28, 119, 178, 0.3)
+        border-radius: 12px
+        font-family: PFCentroSansPro
+        font-size: 10px
+        line-height: 14px
+        color: #1C77B2
+        margin-right: auto
+        padding: 3px 7px
+        transition: .3s
+        &:hover
+          color: #ffffff
+          background: #1C77B2
+  &-btnAll
+    margin: 0 auto
+
+@import media

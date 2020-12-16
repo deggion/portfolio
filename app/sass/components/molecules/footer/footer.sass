@@ -1,0 +1,99 @@
+.footer
+  margin-top: 72px
+  padding-top: 33px
+  padding-bottom: 40px
+  background: #F8FAFC
+  .container
+    flex-wrap: wrap
+    justify-content: space-between
+  &-column
+    margin-right: 24px
+    &:nth-of-type(even)
+      margin-top: 38px
+    &:nth-of-type(3)
+      ul
+        li
+          margin-bottom: 3px
+    b
+      font-weight: 400
+      line-height: 40px
+    ul
+      margin-top: 16px
+      list-style: none
+      li
+        width: 204px
+        line-height: 20px
+        margin-bottom: 7px
+        &:hover
+          a
+            opacity: 1
+        &:last-of-type
+        a
+          text-decoration: none
+          font-family: PFCentroSansPro
+          font-size: 14px
+          color: #151C22
+          opacity: 0.8
+  &-lastColumn
+    &__category
+      display: flex
+      ul
+        list-style: none
+        &:first-of-type
+          margin-right: 132px
+        li
+          a
+            text-decoration: none
+            line-height: 40px
+            color: #221C1C
+    &__contacts
+      p
+        margin-top: 36px
+        font-family: PFCentroSansPro
+        font-size: 14px
+        line-height: 18px
+        color: rgba(2, 2, 2, 0.804)
+        a
+          text-decoration: none
+          color: rgba(2, 2, 2, 0.804)
+          &:last-of-type
+            text-decoration: underline
+            color: #1C77B2
+    &__copyright
+      margin-top: 4px
+      display: flex
+      align-items: baseline
+      span
+        font-family: PFCentroSansPro
+        font-size: 11px
+        line-height: 20px
+        opacity: 0.6
+        margin-right: 79px
+      ul
+        list-style: none
+        display: flex
+        li
+          margin-right: 13px
+          position: relative
+          &::after
+            content: ''
+            position: absolute
+            top: 11px
+            right: -7px
+            opacity: 0.3
+            display: block
+            height: 10px
+            width: 1px
+            background: #151C22
+          &:last-of-type
+            margin-right: 0
+            &::after
+              display: none
+          a
+            font-family: PFCentroSansPro
+            font-size: 11px
+            line-height: 20px
+            text-decoration-line: underline
+            color: #1C77B2
+
+@import media
